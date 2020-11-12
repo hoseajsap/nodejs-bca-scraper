@@ -27,5 +27,20 @@ module.exports = {
       await parser.logout();
       throw err;
     }
+  },
+
+  getAll: async (username, password) => {
+    try {
+      const IP = await parser.getIP();
+      await parser.login(username, password, IP);
+      await parser.openSettlementMenu();
+      const balance = await parser.balance();
+      const settlement = await parser.settlement();
+      await parser.logout();
+      return { "settlement" : settlement, "balance" : balance };
+    } catch (err) {
+      await parser.logout();
+      throw err;
+    }
   }
 };

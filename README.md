@@ -46,6 +46,20 @@ bca
   });
 ```
 
+### Cek Settlement & Saldo Terakhir
+
+```javascript
+bca
+  .getAll(USERNAME, PASSWORD)
+  .then(({settlement, balance}) => {
+    console.log('settlement ', settlement);
+    console.log('balance ', balance)
+  })
+  .catch(err => {
+    console.log('error ', err)
+  })
+```
+
 # License
 
 MIT
