@@ -1,23 +1,17 @@
-# nodejs-bca-scraper
+# nodejs-klikbca-parser
 
 Plugin untuk membantu anda mendapatkan informasi saldo terakhir rekening BCA anda serta mutasi rekening BCA anda pada hari itu melalui KlikBCA.
 
 ## Cara Install
 
 ```bash
-npm install --save nodejs-bca-scraper
-```
-
-atau
-
-```bash
-yarn add nodejs-bca-scraper
+npm install --save nodejs-klikbca-parser
 ```
 
 ## Penggunaan
 
 ```javascript
-const bca = require('nodejs-bca-scraper');
+const bca = require('nodejs-klikbca-parser');
 ```
 
 ### Cek Saldo Terakhir
@@ -65,5 +59,8 @@ bca
 MIT
 
 # Author
-
+Original Author
 [Achmad Apriady](mailto:achmad.apriady@gmail.com)
+
+Modified by
+[Hosea Jovian](mailto:hosea.jovian@gmail.com)

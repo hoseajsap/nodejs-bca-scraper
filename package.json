@@ -1,6 +1,6 @@
 {
-  "name": "nodejs-bca-scraper",
-  "version": "1.0.1",
+  "name": "nodejs-klikbca-parser",
+  "version": "1.0.4",
   "description": "Plugin untuk mendapatkan saldo terakhir dan mutasi rekening BCA via klikbca tanpa menggunakan official API dari Bank BCA.",
   "keywords": [
     "bankbca",
